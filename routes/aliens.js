@@ -1,6 +1,6 @@
 const express  = require('express')
 const router = express.Router()
-const ALien = require('../models/alien')
+const Alien = require('../models/alien')
 
 router.get('/', async(req, res) => {
     try{
